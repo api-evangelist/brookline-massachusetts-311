@@ -1,0 +1,46 @@
+{
+    "name": "Brookline Massachusetts 311",
+    "description": "<p>The 311 website for Brookline Massachusetts.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Screen Shot 2017-12-26 at 9.54.50 PM.png",
+    "tags": [
+        "311",
+        "have api",
+        "open311",
+        "streams"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/brookline-massachusetts-311\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Brookline MA Open311 GeoReport API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Screen Shot 2017-12-26 at 9.54.50 PM.png",
+            "humanURL": "http:\/\/spot.brooklinema.gov\/open311",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/brookline-ma-open311-georeport-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/brookline-ma-open311-georeport-api-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Open 311 Feed",
+            "url": "http:\/\/spot.brooklinema.gov\/open311\/v2\/services.xml?jurisdiction_id=brooklinema.gov"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/spot.brooklinema.gov\/open311"
+        }
+    ]
+}
