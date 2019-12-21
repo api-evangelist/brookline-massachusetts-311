@@ -1,5 +1,5 @@
 {
-    "id": "0940412fe11e4fbb749f340f5f75a3db",
+    "id": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
     "name": "Brookline MA Open311 GeoReport API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "e3267252c337c66de68b109c1c328904",
+            "id": "d8560d928188f6297c4c667abecdec6c",
             "name": "Requests",
             "url": "httpspot.brooklinema.gov\/open311\/v2\/\/requests.{response_format}",
             "description": "Query the current status of multiple requests.",
@@ -72,11 +72,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0940412fe11e4fbb749f340f5f75a3db",
+            "collectionId": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
             "rawModeData": ""
         },
         {
-            "id": "446f9c04b90f6dcf3c908368353ac131",
+            "id": "a79511abeeb443e524602dbbb522fb74",
             "name": "Create Service Request",
             "url": "httpspot.brooklinema.gov\/open311\/v2\/\/requests.{response_format}",
             "description": "Submit a new request for with specific details of a single service. Must provide a location via lat\/long or address_string or address_id",
@@ -145,11 +145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0940412fe11e4fbb749f340f5f75a3db",
+            "collectionId": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
             "rawModeData": ""
         },
         {
-            "id": "79a34e911d342ba2755a6b92a5bbf384",
+            "id": "5893823b1051d6b835a497e932d5e25f",
             "name": "Current Status",
             "url": "httpspot.brooklinema.gov\/open311\/v2\/\/request\/{service_request_id}.{response_format}d",
             "description": "Query the current status of an individual request",
@@ -176,11 +176,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0940412fe11e4fbb749f340f5f75a3db",
+            "collectionId": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
             "rawModeData": ""
         },
         {
-            "id": "ae6354b04167c1661fab9156cd7169e9",
+            "id": "b0680079b675d27d976be1df6ff34938",
             "name": "Service Types",
             "url": "httpspot.brooklinema.gov\/open311\/v2\/\/services.{response_format}",
             "description": "List acceptable service request types and their associated service codes. These request types can be unique to the city\/jurisdiction.",
@@ -207,11 +207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0940412fe11e4fbb749f340f5f75a3db",
+            "collectionId": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
             "rawModeData": ""
         },
         {
-            "id": "798c5443df821398ed208a21fb981bbc",
+            "id": "058d2afe95cb59265f9c698166368f55",
             "name": "(extended) Definition Of A Service Type",
             "url": "httpspot.brooklinema.gov\/open311\/v2\/\/services\/{service_code}.{response_format}",
             "description": "Define attributes associated with a service code. These attributes can be unique to the city\/jurisdiction.",
@@ -238,11 +238,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0940412fe11e4fbb749f340f5f75a3db",
+            "collectionId": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
             "rawModeData": ""
         },
         {
-            "id": "f98970616608654f1371405c9bb5cec1",
+            "id": "23d2bf0f28340a67634ce12d2f2ed0e7",
             "name": "Id Of Service_request Via Token",
             "url": "httpspot.brooklinema.gov\/open311\/v2\/\/tokens\/{token_id}.{response_format}",
             "description": "Get the service_request_id from a temporary token. This is unnecessary if the response from creating a service request does not contain a token.",
@@ -269,7 +269,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0940412fe11e4fbb749f340f5f75a3db",
+            "collectionId": "46a5d62c21cbea6c5c4b2c5de6ac47c8",
             "rawModeData": ""
         }
     ]
